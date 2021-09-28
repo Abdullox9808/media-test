@@ -1,0 +1,64 @@
+@media (max-width:1130px) {
+    .main__nike-block{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+    }
+    .header__content{
+      display: flex;
+      flex-direction: column; 
+     padding-bottom: 15px;
+        
+    }
+    .header__logo{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+       
+    }
+    .footer__content{
+        margin-left: 0;
+    }
+    .footer__list{
+        margin-left: 200px;
+    }
+}
+@media (max-width:740px){
+    .header__list{
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    .header__link{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .main__content>img{
+        width: 100%;
+    
+    }
+    .main__content-title{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:410px){
+    .footer__content,.footer__input,.footer__textarea,.footer__btn{
+        width: 100%;
+    }
+    .main__item1{
+        justify-content: center;
+        margin-left: 0;
+    }
+    .footer__list{
+        width: 100%;
+    }
+}
